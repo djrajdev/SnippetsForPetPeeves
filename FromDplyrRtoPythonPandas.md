@@ -98,10 +98,8 @@ df.query("col1 in @str_list")
 **Multiple aggregation / summarise functions**
 ```
 # R
-df %>% group_by(col1) %>% summarise(newcol1 = f1(col2),
-									newcol2 = f2(col2))
+df %>% group_by(col1) %>% summarise(newcol1 = f1(col2), newcol2 = f2(col2))
 
 # python
-df.groupby('col1').agg(newcol1 = ('col2', 'f1'),
-						newcol2 = ('col2', 'f2'))
+df.groupby('col1').agg(newcol1 = ('col2', 'f1'), newcol2 = ('col2', 'f2'))
 ```
