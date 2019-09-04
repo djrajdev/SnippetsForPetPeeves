@@ -2,8 +2,8 @@
 
 This is a ctrl+F friendly doc to keep a track of things I can do blindfolded and drunk in R, but need some googling in python until I get familiar. Mostly `dplyr` to `pandas`.
 
-<u>**Citation**</U>
-[(Docs) comparison with R libraries.]([https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_r.html](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_r.html))   
+<u>**Citation**</U><br>
+[(Docs) comparison with R libraries.](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_r.html)   
 Although this quite comprehensive, I find value in documenting it in my words for ease of search.
 
 **Column types or classes for data frame**   
